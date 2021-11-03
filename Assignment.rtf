@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red210\green0\blue53;\red245\green245\blue247;\red220\green161\blue13;
+}
+{\*\expandedcolortbl;;\cssrgb\c86667\c6667\c26667;\cssrgb\c96863\c96863\c97647;\cssrgb\c89412\c68627\c3922;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat7\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww37900\viewh19680\viewkind0
+\deftab560
+\pard\pardeftab560\partightenfactor0
+
+\f0\b\fs40 \cf0 Assignment\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f1\b0\fs26 \cf0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 1. https://swapi.dev/api/people/4/\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 .height\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 2. 
+\f2\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\ul \ulc2 https://swapi.dev/api/planets/2/
+\f1\fs26 \cf0 \cb1 \kerning1\expnd0\expndtw0 \ulnone \
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0  3. https://swapi.dev/api/starships/10/\
+\
+4. https://swapi.dev/api/people/2/\
+		"https://swapi.dev/api/species/2/"\
+\
+5. https://swapi.dev/api/people/10/\
+	"https://swapi.dev/api/films/1/",\
+        "https://swapi.dev/api/films/2/",\
+        "https://swapi.dev/api/films/3/",\
+        "https://swapi.dev/api/films/4/",\
+        "https://swapi.dev/api/films/5/",\
+        "https://swapi.dev/api/films/6/"\
+\
+6. {\field{\*\fldinst{HYPERLINK "https://swapi.dev/api/starships/?search=Millennium"}}{\fldrslt \cf4 https://swapi.dev/api/starships/?search=Millennium}}\
+\
+\
+PART 2\
+\
+1. Accepts a body, is expecting a text body. Needs to send in the actually text that\'92s it\
+2. Returns a json object of posts\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 3. {\field{\*\fldinst{HYPERLINK "http://Practiceapi.devmountain.com/api/posts/?id=555"}}{\fldrslt \cf4 Practiceapi.devmountain.com/api/posts/?id=555}}\
+4. 200 returns an array of filtered post\uc0\u8232 	409 returns that the query is missing the required text\
+5. {\field{\*\fldinst{HYPERLINK "https://practiceapi.devmountain.com/api/posts/"}}{\fldrslt \cf4 https://practiceapi.devmountain.com/api/posts/}}\uc0\u8232 	BODY:\u8232 	\{\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 	  "text": "TJ Luebke"\
+	\}\
+6. {\field{\*\fldinst{HYPERLINK "https://practiceapi.devmountain.com/api/posts/?id=164"}}{\fldrslt \cf4 https://practiceapi.devmountain.com/api/posts/?id=164}}\uc0\u8232 	BODY:\u8232 	\{\
+  		"text": "blue"\
+	\}\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls3\ilvl0\cf0 7. {\field{\*\fldinst{HYPERLINK "https://practiceapi.devmountain.com/api/posts/filter?text=blue"}}{\fldrslt \cf4 https://practiceapi.devmountain.com/api/posts/filter?text=blue}}\
+8. application/json; charset=utf-8\
+9. Not supplying a query ( the ?key=value) or supplying a body\
+10. If not using the filter. You will get back all the data. Just cause it disregards the query.\
+}
